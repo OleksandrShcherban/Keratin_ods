@@ -1,0 +1,98 @@
+.about-us {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 240px 200px;
+    background-color: var(--back-color);
+    justify-items: center;
+}
+
+.about__left-container {
+    justify-self: left;
+    margin: -24px 12px 0px -40px;
+}
+
+.about__right-container {
+    margin: -80px 12px 12px 12px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.about__photo {
+    height: 240px;
+    width: 240px;
+    border-width: 4px;
+    border-radius: 50%;
+    border-color: var(--accent-color);
+    border-style: solid;
+}
+
+@media (min-width: 704px) {
+    .about-us {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 400px;
+        }
+    
+        .about__left-container {
+            margin: 24px 24px 24px auto;
+            padding-left: 24px;
+        }
+    
+        .about__right-container {
+            margin: 40px 0px auto 0px;
+            padding-right: 24px;
+        }
+    
+        .about__photo {
+            height: 320px;
+            width: 320px;
+        }
+}
+
+@media (min-width: 896px) {
+    .about-us {
+        height: 480px;
+    }
+
+    .about__left-container {
+        margin: 32px 32px 32px auto;
+        padding-left: 32px;
+    }
+
+    .about__right-container {
+        padding-right: 32px;
+        font-size: 20px;
+    }
+
+    .about__photo {
+        height: 400px;
+        width: 400px;
+        border-width: 6px;
+    }
+}
+
+@media (min-width: 1152px) {
+    .about-us {
+            height: 580px;
+        }
+    
+        .about__left-container {
+            margin: 40px 40px 40px auto;
+            padding-left: 40px;
+        }
+    
+        .about__right-container {
+            margin: 40px auto auto 40px;
+            padding-right: 40px;
+            font-size: 24px;
+        }
+    
+        .about__photo {
+            height: 480px;
+            width: 480px;
+            border-width: 8px;
+        }
+}

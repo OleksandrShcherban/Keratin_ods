@@ -1,0 +1,117 @@
+.main-screen {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: var(--back2-color);
+    justify-items: center;
+    height: 360px;
+    overflow-x: hidden;
+}
+
+.main__left-container {
+    margin: 12px 12px 0 12px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--light-color);
+}
+
+.main-text-accent {
+    font-family: 'Great Vibes', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.main__right-container {
+    margin: -240px -120px 0px 12px;
+    height: 100px;
+    justify-self: right;
+}
+
+.main__photo {
+    height: 240px;
+    width: 240px;
+    border-width: 4px;
+    border-radius: 50%;
+    border-color: var(--light-color);
+    border-style: solid;
+}
+
+@media (min-width: 704px) {
+    .main-screen {
+        grid-template-columns: 1fr 1fr;
+        height: 400px;
+        overflow: auto;
+    }
+
+    .main__left-container {
+        margin: 24px 0px 24px auto;
+        padding-left: 24px;
+    }
+
+    .main__right-container {
+        margin: 24px auto 24px 24px;
+        padding-right: 24px;
+    }
+
+    .main__photo {
+        height: 320px;
+        width: 320px;
+        border-width: 4px;
+    }
+}
+
+@media (min-width: 896px) {
+    .main-screen {
+        height: 480px;
+    }
+
+    .main__left-container {
+        margin: 32px 0px 32px auto;
+        padding-left: 32px;
+        font-size: 64px;
+    }
+
+    .main-text-accent {
+        font-size: 80px;
+    }
+
+    .main__right-container {
+        margin: 32px auto 32px 32px;
+        padding-right: 32px;
+    }
+
+    .main__photo {
+        height: 400px;
+        width: 400px;
+        border-width: 6px;
+    }
+}
+
+@media (min-width: 1152px) {
+    .main-screen {
+        height: 580px;
+    }
+
+    .main__left-container {
+        margin: 40px 40px 40px auto;
+        padding-left: 40px;
+        font-size: 80px;
+    }
+
+    .main-text-accent {
+        font-size: 96px;
+    }
+
+    .main__right-container {
+        margin: 40px auto 40px 40px;
+        padding-right: 40px;
+    }
+
+    .main__photo {
+        height: 480px;
+        width: 480px;
+        border-width: 8px;
+    }
+}

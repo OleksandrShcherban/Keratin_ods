@@ -38,6 +38,12 @@
     max-width: 120px;
 }
 
+@media (max-height: 400px) {
+    .header__link-underline {
+            margin: 4vh auto;
+        }    
+}
+
 .header__link-underline:hover {
     --underline-length: 100%;
 }

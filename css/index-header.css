@@ -34,7 +34,7 @@
 
 .header__link-underline {
     --underline-length: 0px;
-    margin: 40px auto;
+    margin: 8vh auto;
     max-width: 120px;
 }
 
@@ -51,7 +51,6 @@
 }
 
 .navigation-burger {
-    --burger-color: var(--text-color);
     display: block;
     position: relative;
     width: 32px;
@@ -69,12 +68,11 @@
     position: absolute;
     height: 2px;
     width: 100%;
-    background-color: var(--burger-color);
+    background-color: var(--text-color);
     transition: all 0.5s ease-in-out;
 }
 
 .navigation-burger:hover {
-    --burger-color: var(--accent-hover-color);
     transition: 0.3s;
 }
 
@@ -172,6 +170,7 @@
 .header__container {
     grid-template-columns: 200px 1fr 200px;
 }
+
 }
 
 @media (min-width: 896px) {
@@ -187,5 +186,8 @@
 
     .underline {
         margin-bottom: 12px;
+    }
+    .navigation-wrapper {
+        display: none;
     }
 }

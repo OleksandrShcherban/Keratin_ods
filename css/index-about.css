@@ -8,11 +8,11 @@
 
 .about__left-container {
     justify-self: left;
-    margin: -24px 12px 0px -40px;
+    margin: -24px 12px 0px -12px;
 }
 
 .about__right-container {
-    margin: -80px 12px 12px 12px;
+    margin: -60px 12px 12px 12px;
     font-family: 'Cormorant Garamond', serif;
     text-align: justify;
     font-weight: 600;
@@ -23,7 +23,7 @@
 .about__photo {
     height: 240px;
     width: 240px;
-    border-width: 4px;
+    border-width: 0px;
     border-radius: 50%;
     border-color: var(--accent-color);
     border-style: solid;

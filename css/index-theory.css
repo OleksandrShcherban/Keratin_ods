@@ -44,7 +44,7 @@
 }
 
 .cold {
-    background-image: url(img/grass.svg);
+    background-image: url(../img/grass.svg);
 }
 
 .k-container {
@@ -52,7 +52,7 @@
 }
 
 .keratin {
-    background-image: url(img/flower.svg);
+    background-image: url(../img/flower.svg);
 }
 
 .b-container {
@@ -60,7 +60,7 @@
 }
 
 .botoks {
-    background-image: url(img/plant.svg);
+    background-image: url(../img/plant.svg);
 }
 
 .cold, .keratin, .botoks {

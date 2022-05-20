@@ -1,9 +1,17 @@
 .about-us {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 240px 200px;
+    grid-template-rows: 240px 240px;
     background-color: var(--back-color);
     justify-items: center;
+}
+
+.h2-about {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--text-color);
+    text-align: center;
 }
 
 .about__left-container {
@@ -49,6 +57,7 @@
         .about__photo {
             height: 320px;
             width: 320px;
+            border-width: 6px;
         }
 }
 
@@ -70,7 +79,6 @@
     .about__photo {
         height: 400px;
         width: 400px;
-        border-width: 6px;
     }
 }
 

@@ -5,7 +5,7 @@
     background-color: var(--back2-color);
     justify-items: center;
     height: 360px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .main__left-container {
@@ -41,7 +41,8 @@
 
 @media (min-width: 704px) {
     .main-screen {
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
         height: 400px;
         overflow: auto;
     }

@@ -11,6 +11,7 @@
     --accent-hover-color: #ff4433;
     --back2-color: #99CC88;
     --light-color: #FFFFFF;
+    --bs-body-line-height: 1.0;
 }
 
 * {
@@ -34,10 +35,3 @@
     transition: 0.3s;
 }
 
-h2 {
-    font-family: 'Pacifico', cursive;
-    font-weight: 400;
-    font-size: 40px;
-    color: var(--text-color);
-    text-align: center;
-}

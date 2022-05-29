@@ -72,7 +72,7 @@
             <a href="#contacts" class="base__button">&#129514; О методиках ⮕</a>
         </div>
     </section>
-    <section class="theory">
+    <section class="theory" id="theory">
         <div class="theory__left-container">
             <h2 class="h2-theory">~ Теория ~</h2><br>
             Существует 3 основных уровня воздействия на волосы в зависимости от первоначального состояния волос и желаемого эффекта:<br>
@@ -81,7 +81,7 @@
             <a href="#botoks" class="theory-link">~ ботокс</a>;<br>
             <a href="#nano" class="theory-link">~ нанопластика</a>.<br>
             Наглядые фото показаны в следующем разделе.<br><br>
-            <a href="#contacts" class="base__button">&#128188; Результаты ⮕</a>
+            <a href="#practice" class="base__button">&#128188; Результаты ⮕</a>
         </div>
         <div class="c-container">
             <div class="cold" id="cold">Холодное восстановление - самая лёгкая и щадящая процедура.</div>
@@ -96,8 +96,46 @@
             <div class="nano" id="nano">Нанопластика - чистая химия!</div>
         </div>
     </section>
-    <script src="js/burger-menu.js"></script>
-
+    <section class="practice" id="practice">
+            <h2 class="h2-about">~ Практика ~</h2><br>
+    </section>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="logo-container footer-inactive"><img src="img/logo.svg" alt="Logo" class="header__logo"></div>
+        <div class="footer__contact" id="contacts">
+            <form id="fs-frm" class="contact-form-formspree" name="contacts-form" accept-charset="utf-8" action="https://formspree.io/f/xeqnnrpp" method="post">
+                <fieldset id="fs-frm-inputs" class="form-field">
+                    <label for="name">Имя (*)</label>
+                    <input class="input-text" type="text" name="Name" id="name" placeholder="Ваше имя" required="">
+                    <label for="telephone">Номер телефона (приоритетный контакт)</label>
+                    <input class="input-text" type="telephone" name="Tel" id="telephone" placeholder="+38 (0ХХ) ххх-хх-хх" required="">
+                    <label for="email-address">Email / Insta (альтернативный контакт)</label>
+                    <input class="input-text" type="text" name="Email/Insta" id="email-address" placeholder="email@server.com / @instagram">
+                    <label for="length">Волосы</label>
+                    <div>
+                        <input class="input-radio" type="radio" id="lenght1" name="Lenght" value="Короткие">
+                        <label for="length">Короткие</label>
+                        <input class="input-radio" type="radio" id="lenght2" name="Lenght" value="Средние">
+                        <label for="length">Средние</label>
+                        <input class="input-radio" type="radio" id="lenght3" name="Lenght" value="Длинные">
+                        <label for="length">Длинные</label>
+                    </div>
+                        <label  for="info">Дополнительная информация / вопросы</label>
+                        <textarea class="input-text"rows="3" name="Info" id="info" placeholder="Инфо"></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Заявка с сайта keratin_ods">
+                </fieldset>
+                <input type="submit" class="base__button contact-button" value="Оставить заявку">
+            </form>
+            <div class="contact-form-status"></div>
+        </div>
+        <div class="header-socials footer-inactive"><a class="header__social" href="https://www.instagram.com/keratin_ods/">
+            <img src="img/insta.svg" alt="Instargam">
+            <div class="header__insta-text">instagram<br> @keratin_ods</div>
+            </a></div>
+    </div>
+</footer>
+<script src="js/burger-menu.js"></script>
+<script src="js/contact-form.js"></script>
 </body>
 
 </html>

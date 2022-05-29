@@ -11,12 +11,13 @@
 
 .logo-container {
     z-index: 2;
+    display: flex;
 }
 
 .header__logo {
     height: 120px;
     width: 120px;
-    margin-left: 40px;
+    margin: auto auto auto 40px;
 }
 
 .header-menu {
@@ -123,7 +124,7 @@
 
 .header-socials:hover {
     --social-color: var(--accent-hover-color);
-    --insta-color: var(--accent-color);
+    --insta-color: var(--accent-hover-color);
     transition: 0.3s;
 }
 
